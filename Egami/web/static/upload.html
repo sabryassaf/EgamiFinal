@@ -1,0 +1,19 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="technion-logo-container">
+        <img id="technion-logo" src="img/Technion.jpg" alt="Technion">
+    </div>
+
+
+    <div style="text-align: center;padding-top:200px;">
+        <h1>Egami</h1>
+        <h2>Upload an image and see it get flipped and inverted:</h2>
+        <form action="/upload_file" { url_for('upload_file') }"" method=post enctype=multipart/form-data>
+            <input type=file name=file><br>
+            <input id="submit-button" type=submit value=Upload>
+        </form>
+    </div>
+</body>
